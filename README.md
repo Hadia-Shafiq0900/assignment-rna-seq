@@ -5,7 +5,7 @@ The goal is to identify **differentially expressed genes (DEGs)** and understand
 
 ---
 
-## 📌 Overview
+## Overview
 RNA-Seq data from treated and untreated samples was analyzed to:
 - Assess sequence quality  
 - Map reads to a reference genome  
@@ -15,7 +15,7 @@ RNA-Seq data from treated and untreated samples was analyzed to:
 
 ---
 
-## 🧪 Workflow Steps
+## Workflow Steps
 
 ### 1. Quality Control — Falco & MultiQC
 **Falco**
@@ -24,7 +24,7 @@ RNA-Seq data from treated and untreated samples was analyzed to:
 **MultiQC**
 - Combines all QC reports into a single summary
 
-➡️ Ensures sequencing data is reliable before analysis
+ Ensures sequencing data is reliable before analysis
 
 ---
 
@@ -32,7 +32,7 @@ RNA-Seq data from treated and untreated samples was analyzed to:
 **Cutadapt**
 - Removes low-quality bases and adapter sequences
 
-➡️ Improves mapping accuracy
+ Improves mapping accuracy
 
 ---
 
@@ -40,14 +40,14 @@ RNA-Seq data from treated and untreated samples was analyzed to:
 **STAR**
 - Aligns RNA-Seq reads to the reference genome (splice-aware)
 
-➡️ Identifies origin of reads in genome
+ Identifies origin of reads in genome
 
 ---
 
 ### 4. Mapping Evaluation — MultiQC
 - Reviews alignment statistics (e.g., % mapped reads)
 
-➡️ Confirms mapping quality
+ Confirms mapping quality
 
 ---
 
@@ -65,14 +65,14 @@ RNA-Seq data from treated and untreated samples was analyzed to:
 - Compares treated vs untreated samples  
 - Identifies significantly differentially expressed genes  
 
-➡️ Detects genes affected by treatment
+ Detects genes affected by treatment
 
 ---
 
 ### 7. Annotation
 - Adds gene names, positions, and biological information
 
-➡️ Makes results easier to interpret
+ Makes results easier to interpret
 
 ---
 
