@@ -107,10 +107,6 @@ RNA-Seq data from treated and untreated samples was analyzed to:
 - featureCounts  
 - DESeq2  
 
----
-
-## ⏱️ Estimated Time
-~8 hours
 
 ---
 
