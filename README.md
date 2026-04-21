@@ -152,5 +152,3 @@ https://zenodo.org/record/6457007/files/GSM461180_2_subsampled.fastqsanger
 
 ---
 
-##  Data Source
-RNA-Seq dataset from *Drosophila melanogaster* (Pasilla gene depletion study)
